@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Hello, world!</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #444;
+      }
+      h1 {
+        color: royalblue;
+      }
+      a, a:visited {
+        color: #008080;
+      }
+      a:hover {
+        color: #00cccc;
+      }
+      .copyCenter {
+        text-align: center;
+      }
+      .copyRight {
+        text-align: right;
+      }
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .box {
+        max-width: 100%;
+        padding: 0px 10px;
+        overflow: auto;
+        margin: 20px 5px;
+      }
+      .iconArea {
+        width:50px;
+        float: left;
+        display: inline-block;
+      }
+      .copyArea {
+        max-width: 850px;
+        float: none;
+        display:block;
+        overflow: hidden;
+      }
+      .copyArea p {
+        margin-top: 20px;
+      }
+      .closeArea {
+        width: 30px;
+        float: right;
+      }
+      .closeArea i {
+        cursor: pointer;
+      }
+
+      /* Unique Box Styles */
+      .warning {
+        background:salmon;
+        border-radius: 3px;
+      }
+      .weather {
+        background: skyblue;
+      }
+      .newsletter {
+        background:turquoise;
+        border-top:5px solid #2A9489;
+        border-radius: 5px;
+        color: #2A9489;
+      }
+      .hours {
+        background:lightgrey;
+        border:1px solid #ccc;
+        border-radius: 3px;
+      }
+      .specialOffer {
+        background: repeating-linear-gradient(45deg, rgba(0,128,128,.25), rgba(0,128,128,.25) 10px, rgba(0,128,128,.3) 10px, rgba(0,128,128,.3) 20px);
+        box-shadow: 5px 5px 0 rgba(0,0,0,.2);
+        border: 2px solid #008080;
+        color:#008080;
+      }
+
+      /* Rules for sizing the icon. */
+      .material-icons.md-18 { font-size: 18px; }
+      .material-icons.md-24 { font-size: 24px; }
+      .material-icons.md-36 { font-size: 36px; }
+      .material-icons.md-48 { font-size: 48px; }
+
+      /* Rules for using icons as black on a light background. */
+      .material-icons.md-dark { color: rgba(0, 0, 0, 0.34); }
+      .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+      /* Rules for using icons as white on a dark background. */
+      .material-icons.md-light { color: rgba(255, 255, 255, .6); }
+      .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="copyCenter">Latest News</h1>
+      <div class="box warning">
+        <div class="iconArea">
+          <p><i class="material-icons md-36 md-light">access_time</i></p>
+        </div>
+        <div class="closeArea" id="warning">
+          <p class="copyRight"><i class="material-icons md-dark">cancel</i></p>
+        </div>
+        <div class="copyArea">
+          <p><strong>★ Urgent Notice:</strong>- Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal Results. RGPV Portal ·  Result - B.E. / B.E. (PTDC)/ B.Tech. /B.Design click Here,</p>
+          <p><strong>★ Urgent Notice:</strong>- Courses and schedule of classes for M. Tech. Part Time Programs Regarding. NEW</p>
+          <p><strong>★ Urgent Notice:</strong>- Admit Card for Non-Teaching Recruitment 2024 Available for Download  now</p>
+          <p><strong>★ Urgent Notice:</strong>- Time Table of B.Tech. 1st sem, August 2024</p>
+        </div>
+      </div>
+      <div class="box weather">
+        <div class="iconArea">
+          <p><i class="material-icons md-36 md-light">access_time</i></p>
+        </div>
+        <div class="closeArea" id="weather">
+          <p class="copyRight"><i class="material-icons md-dark">cancel</i></p>
+        </div>
+        <div class="copyArea">
+          <p><strong>SGI Notification 2024:</strong> Time Table of B.Tech. 1st sem, August 2024</p>
+          <p><strong>SGI Notification 2024:</strong> Time Table of B.Tech. 1st sem, August 2024</p>
+          <p><strong>SGI Notification 2024:</strong>List of Shortlisted Candidates For Interview For Teaching Positions</p>
+        </div>
+      </div>
+      <div class="box newsletter">
+        <div class="iconArea">
+          <p><i class="material-icons md-36 md-dark">email</i></p>
+        </div>
+        <div class="closeArea" id="newsletter">
+          <p class="copyRight"><i class="material-icons md-dark">cancel</i></p>
+        </div>
+        <div class="copyArea">
+          <p><strong>Sign up for our newsletter!</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, commodi.</p>
+        </div>
+      </div>
+      <div class="box hours">
+        <div class="iconArea">
+          <p><i class="material-icons md-36 md-dark">access_time</i></p>
+        </div>
+        <div class="closeArea" id="hours">
+          <p class="copyRight"><i class="material-icons md-dark">cancel</i></p>
+        </div>
+        <div class="copyArea">
+          <p><strong>Hours Update:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, commodi.</p>
+        </div>
+      </div>
+      <div class="box specialOffer">
+        <div class="iconArea">
+          <p><i class="material-icons md-36 md-dark">stars</i></p>
+        </div>
+        <div class="closeArea" id="specialOffer">
+          <p class="copyRight"><i class="material-icons md-dark">cancel</i></p>
+        </div>
+        <div class="copyArea">
+          <p><strong>Special Offer:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, commodi.</p>
+        </div>
+      </div>
+      <!-- <p>Read more about implementing Google's <a href="https://material.io/icons/" title="Material Icon Font" target="_blank">Material Icon</a> Font <a href="https://google.github.io/material-design-icons/#getting-icons" title="Material Icon Font Setup Documentation" target="_blank">here</a>. These alert boxes can be positioned as you like at the top of your website for special occasions. <em>*Requires IE9 or later.</em></p> -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQ2ms8ef5p5/9um/OsK4k2heGHxq2X2G8VxB2j+f8bAAG4I1XtqkV7B5w3zTmEx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript for closing boxes -->
+    <script>
+      $(document).ready(function() {
+        $('#warning').on('click', function() {
+          $('.warning').fadeOut(300, function(){
+            $('.warning').remove();
+          });
+        });
+        $('#weather').on('click', function() {
+          $('.weather').fadeOut(300, function(){
+            $('.weather').remove();
+          });
+        });
+        $('#newsletter').on('click', function() {
+          $('.newsletter').fadeOut(400, function(){
+            $('.newsletter').remove();
+          });
+        });
+        $('#hours').on('click', function() {
+          $('.hours').fadeOut(200, function(){
+            $('.hours').remove();
+          });
+        });
+        $('#specialOffer').on('click', function() {
+          $('.specialOffer').fadeOut(800, function(){
+            $('.specialOffer').remove();
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
